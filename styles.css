@@ -1,0 +1,31 @@
+*{
+    marging: 0;
+    padding: 0;
+}
+
+.flex-container {
+  display: flex;
+  background-color: DodgerBlue;
+  align-items: stretch;
+
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+
+#left_container {
+  border:red solid 1px;
+  background-color: antiquewhite;
+  flex-grow:1;
+  
+}
+
+#right_container{
+    border: black solid 1px;
+    flex-grow:3;
+}
+
