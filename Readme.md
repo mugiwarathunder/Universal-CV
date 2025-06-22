@@ -14,7 +14,7 @@ git
 git init  
 git add .  
 git commit -m "added 2 main containres with flex-grow"  
-gh repo create  
+gh create repo
 
 ## Load last updates and replace existing local files
 git fetch origin; git reset --hard origin/master; git clean -fd  
